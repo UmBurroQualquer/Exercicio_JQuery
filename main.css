@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: orange;
+    padding: 16px 0;
+    color: black;
+    display: flex;
+    border-bottom: 16px solid white;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+form h2 {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+input, button {
+    padding: 16px;
+}
+
+button {
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+ol, li {
+    margin-top: 20px;
+    margin-left: 43%;
+    margin-right: 55%;
+    white-space: nowrap;
+    color: black;
+}
+
+.concluida {
+    text-decoration: line-through;
+}
+
